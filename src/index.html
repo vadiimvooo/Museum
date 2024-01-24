@@ -11,6 +11,7 @@
       href="../favicon.ico"
       type="image/svg+xml"
     >
+    <script type="text/javascript" src="scripts/main.js"></script>
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <!-- #endregion -->
@@ -289,22 +290,22 @@
             <div class="gallery__dots">
               <span
                 class="gallery__dot gallery__dot--active"
-                onclick="currentSlide(1)"
+                id="button1"
                 data-slide="1">
               </span>
               <span
                 class="gallery__dot"
-                onclick="currentSlide(2)"
+                id="button2"
                 data-slide="2">
               </span>
               <span
                 class="gallery__dot"
-                onclick="currentSlide(3)"
+                id="button3"
                 data-slide="3">
               </span>
               <span
                 class="gallery__dot"
-                onclick="currentSlide(4)"
+                id="button4"
                 data-slide="4">
               </span>
             </div>
@@ -430,8 +431,5 @@
       </footer>
       <!-- #endregion -->
     </main>
-
-
-    <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

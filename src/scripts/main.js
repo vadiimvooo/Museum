@@ -34,4 +34,21 @@ function currentSlide(slideNumber) {
     dots[slideNumber - 1].classList.add('gallery__dot--active');
   }
 }
+
 currentSlide(1);
+
+document.getElementById('button1').addEventListener('click', () => {
+  currentSlide(1);
+});
+
+document.getElementById('button2').addEventListener('click', () => {
+  currentSlide(2);
+});
+
+document.getElementById('button3').addEventListener('click', () => {
+  currentSlide(3);
+});
+
+document.getElementById('button4').addEventListener('click', () => {
+  currentSlide(4);
+});
